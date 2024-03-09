@@ -28,8 +28,8 @@
                   d = b * c
               elif a == 4:
                   print(b, "/", c, "=")
-                  e = int(input("Enter your answer:"))
-                  d = b / c  # Use integer division
+                  e = int(input("Enter your answer in integer term:"))
+                  d = b // c  # Use integer division
               else:
                   print("Choose among the options")
       
