@@ -29,7 +29,7 @@
               elif a == 4:
                   print(b, "/", c, "=")
                   e = int(input("Enter your answer:"))
-                  d = b // c  # Use integer division
+                  d = b / c  # Use integer division
               else:
                   print("Choose among the options")
       
